@@ -41,6 +41,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '8000-dmascoredec-djangolocal-nyoaa0g4jnk.ws-eu110.gitpod.io',
     '*.herokuapp.com',
+    'django-locallibrary-tutorial-8ce1ea0eb412.herokuapp.com',
     ]
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
