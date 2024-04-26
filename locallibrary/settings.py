@@ -35,11 +35,21 @@ DEBUG = True
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # Set hosts to allow any app on Railway and the local testing URL
-ALLOWED_HOSTS = ['.railway.app', '.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = [
+    '.railway.app', 
+    '.pythonanywhere.com', 
+    '127.0.0.1',
+    '8000-dmascoredec-djangolocal-nyoaa0g4jnk.ws-eu110.gitpod.io',
+    '*.herokuapp.com',
+    ]
 
 # Set CSRF trusted origins to allow any app on Railway and the local testing URL
-CSRF_TRUSTED_ORIGINS = ['https://*.railway.app',
-                        'https://*.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.railway.app',
+    'https://*.pythonanywhere.com',
+    'https://*.gitpod.io',
+    'https://*.herokuapp.com',
+    ]
 
 
 # Application definition
